@@ -1,0 +1,13 @@
+.content {
+  margin: 0 auto;
+  max-width: 500px;
+}
+.italic {
+  font-style: italic;
+}
+.bold {
+  font-weight: bold;
+}
+.content:nth-last-child(-n + 1) {
+  color: red;
+}
